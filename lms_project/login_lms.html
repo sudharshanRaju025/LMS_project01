@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("./5image.jpg");
+                background-size:cover;
+                background-repeat: no-repeat;
+                margin-left: 500px;
+                padding-top: 20px;
+                width: 250px;
+                height:100;
+                border-radius: 10px;
+            }
+            #c1{
+                width: 400;
+                height: 500;
+                border-radius: 3px;
+                border: 1px black;
+                color: black;
+                background-color: white;
+
+            }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <center>
+        <div id="c1">
+             <br><br><br>
+             <span style="font-size: 20px;"> New Password Create</span><br><br>
+             <center>
+             <table style="border: none;width: 250;height:20 ;">
+                 <th style="border:none;">
+                    <form>
+                        <fieldset style="height: 50;border-color: blue;">
+                            <legend style="margin-right: auto;color: blue;">Enter OTP*</legend>
+                       <input  style="height:40;width: 300;border:0;outline: none;" type="text" name="unname" value="" placeholder="" required>
+                    </fieldset>
+                    </form>
+                 </th>
+                 <tr>
+                 <td style="border:none;">
+                    <form>
+                        <fieldset style="height: 50;border-color: blue;">
+                            <legend style="margin-right: auto;color: blue;font-size: 18px;opacity: 3;">New Password</legend>
+                       <input  style="height:40;width: 300;border:0;outline: none;" type="password" name="pwd" value="" placeholder="" required>
+                       <i class="far fa-eye" id="togglepassword"></i>
+                    </fieldset>
+                    </form>
+                 </td>
+                 </tr>
+                 <td style="border:none;">
+                    <form>
+                        <fieldset style="height: 50;border-color: blue;">
+                            <legend style="margin-right: auto;color: blue;font-size: 18px;opacity: 3;">Re-enter Password</legend>
+                       <input  style="height:40;width: 300;border:0;outline: none;" type="password" name="pwd" value="" placeholder="" required>
+                    </fieldset>
+                    </form>
+                 </td>
+                 </tr>
+                <tr>
+                    <th>
+                        <form method="get" action="login_lms1.html">
+                        <button style="margin-top: 15px;opacity: 0.75;font-size: 18px;color: white;border-radius: 5px;background-color: blue;width: 325;height: 50px;">Submit</button>
+                    </form>
+                    </th>
+                </tr>
+            </center>
+             </table>
+             </center>
+        </div>
+    </body>
+</html>
